@@ -1,1 +1,58 @@
+body {
+    margin: 0;
+}
 
+.hero {
+    position: relative;
+    width: 100%;
+}
+
+.background {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 10%;
+    left: 9%;
+    width: 35%;
+    color: #fff1df;
+}
+
+.eyebrow {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 4px;
+    color: #f2c8a7;
+}
+
+.hero-text h1 {
+    font-family: Georgia, serif;
+    font-size: clamp(30px, 4.5vw, 62px);
+    font-weight: normal;
+    line-height: 1.05;
+}
+
+.hero-text h1 em {
+    color: #f5a183;
+    font-weight: normal;
+}
+
+.description {
+    font-family: Georgia, serif;
+    font-size: clamp(12px, 1.4vw, 18px);
+    line-height: 1.6;
+}
+
+.hero-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 30px;
+    border: 1px solid #f5a183;
+    border-radius: 35px;
+    color: #fff1df;
+    text-decoration: none;
+    font-family: Georgia, serif;
+}
